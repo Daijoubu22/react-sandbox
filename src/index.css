@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,34 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("bg.jpg");
+  height: 100vh;
+}
+
+.container {
+  padding-top: 400px;
+  padding-left: 80px;
+}
+
+.scene {
+  position: absolute;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 80px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 48px;
+  font-weight: 700;
 }
